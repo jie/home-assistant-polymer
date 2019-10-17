@@ -26,6 +26,8 @@ export const DOMAINS_WITH_CARD = [
   "vacuum",
   "water_heater",
   "weblink",
+  "lab_raspberrypi",
+  "lab_program"
 ];
 
 /** Domains with separate more info dialog. */
