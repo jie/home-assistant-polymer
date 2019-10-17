@@ -9,7 +9,7 @@ import LocalizeMixin from "../mixins/localize-mixin";
 /*
  * @appliesMixin LocalizeMixin
  */
-class StateCardLabProgram extends LocalizeMixin(PolymerElement) {
+class StateCardLabRaspberrypi extends LocalizeMixin(PolymerElement) {
   static get template() {
     return html`
       <style include="iron-flex iron-flex-alignment"></style>
@@ -58,4 +58,4 @@ class StateCardLabProgram extends LocalizeMixin(PolymerElement) {
     });
   }
 }
-customElements.define("state-card-lab_program", StateCardLabProgram);
+customElements.define("state-card-lab_raspberrypi", StateCardLabRaspberrypi);
